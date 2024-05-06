@@ -1,10 +1,10 @@
 <script setup>
-
+import WebAlberto from "./components/WebAlberto.vue"
+import EquipoTrabajo from "./components/EquipoTrabajo.vue"
 </script>
 
 <template>
- <h1 class="font-bold text-xl text-red-600 underline">
-    Hello world!
-  </h1> 
+<WebAlberto />
+<EquipoTrabajo />
 </template>
 
